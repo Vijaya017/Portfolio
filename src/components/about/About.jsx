@@ -13,7 +13,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="About-img" />
+            <img src={ME} alt="About-me" />
           </div>
         </div>
         <div className="about__content">
@@ -21,26 +21,30 @@ const About = () => {
               <article className='about__card'>
                 <FaAward className='about_icon'/>
                 <h5>Experience</h5>
-                <small>3+ Month working</small>
+                <small>2+ Month working</small><br />
+                <small>Companies - IBM , Comviva </small>
               </article>
 
               <article className='about__card'>
                 <FiUsers className='about_icon'/>
-                <h5>Client</h5>
-                <small>300</small>
+                <h5>Leetcode </h5>
+                <small>150+</small><br />
+                <small>Rank - 438,238 </small>
               </article>
 
               <article className='about__card'>
                 <VscFolderLibrary className='about_icon'/>
                 <h5>Project</h5>
-                <small>80</small>
+                <small>3+</small>
               </article>
 
             </div>
 
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium odit aspernatur, assumenda 
-              dignissimos rerum nulla excepturi, maxime voluptates repellendus similique placeat? Rerum incidunt, magni iure suscipit temporibus itaque officia quaerat.
+            Dedicated undergraduate student pursuing a degree in Computer Science and Engineering at Siksha ’O’ Anusandhan. Demonstrated leadership 
+            prowess through two successful tenures in prominent roles. Proficient in cultivating exceptional problem-solving and analytical abilities 
+            through hands-on project work and active engagement in diverse programs. Committed to continuous growth, I consistently challenge myself to
+            acquire new skills and elevate my capabilities as an aspiring engineer.
             </p>
             <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>

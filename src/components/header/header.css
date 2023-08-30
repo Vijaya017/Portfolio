@@ -27,14 +27,16 @@ header{
 }
 
 .header__socials::after {
-    content: "";
+    content: '';
     width: 1px;
     height: 2rem;
     background: var(--color-primary);
 }
 
 .me{
-    background: linear-gradient(var(--color-primary),transparent);
+    background-image: url(/src/assets/logobg2.png);
+    background-size:contain;
+    background-repeat: no-repeat;
     width: 22rem;
     height: 30rem;
     position: absolute;
@@ -55,17 +57,17 @@ header{
 }
 @media screen and (max-width:1024px) {
     header{
-        heigth:68vh;
+        height:68vh;
     }
 }
 
 @media screen and (max-width:600px) {
     header{
-        heigth:100vh;
+        height:100vh;
     }
-}
-
-.header__socials,
-.scroll_down{
+    .header__socials,
+    .scroll_down{
     display: none;
 }
+}
+

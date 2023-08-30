@@ -12,19 +12,19 @@
 }
 
 :root{
-    --color-bg:#1f1f38;
-    --color-bg-variant:#2c2c6c;
-    --color-primary: #4db5ff;
-    --color-primary-variant:rgba(77,181,255,0.4);
+    --color-bg:#501b1d;
+    --color-bg-variant:#2f2e2e;
+    --color-primary:#b178a1;/*#013b40; */
+    --color-primary-variant:rgba(97, 53, 88, 0.4);
     --color-white:#fff;
-    --color-light:rgba(255,255,255,0.6);
+    --color-light:rgba(255, 255, 255, 0.857);
     
     --transition:all 400ms ease;
 
     --container-width-lg:75%;
     --container-width-md:86%;
-    --container-width-ms:90%;
-}
+    --container-width-sm:90%;}
+/* c4955c */
 
 html{
     scroll-behavior: smooth;
@@ -39,7 +39,8 @@ body{
     background: var(--color-bg);
     color:var(--color-white);
     line-height: 1.7;
-    background-image:url(../src/assets/bg-texture.png);
+    /* background-image:url(../src/assets/bg-texture.png); */
+    background-color: #332d3d ;
 }
 
 
@@ -57,7 +58,6 @@ h1{
 
 section{
     margin-top:8rem;
-    height: 100vh;
 }
 
 section >h2,
